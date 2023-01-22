@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Item
+comment0.text=\r\n\ Class\ Item\ -\ an\ item\ in\ an\ adventure\ game.\r\n\r\n\ This\ class\ is\ part\ of\ the\ "World\ of\ Zuul"\ application.\ \r\n\ "World\ of\ Zuul"\ is\ a\ very\ simple,\ text\ based\ adventure\ game.\ \ \r\n\r\n\ An\ "Item"\ an\ object,\ and\ are\ inside\ a\ "Room".\ Some\ items\ can\ be\ picked\ up\r\n\ by\ the\ player\ whereas\ others\ cannot,\ determined\ by\ their\ weight\r\n\ Also,\ an\ item\ falls\ under\ the\ category\ of\ being\ edible\ (can\ be\ fed\ to\ prisoners),\r\n\ being\ a\ weapon\ (can\ be\ used\ to\ eliminate\ enemies),\ or\ neither\r\n\ \r\n\ @author\ \ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes\ and\ Ahmer\ Alam\r\n\ @version\ 2016.02.29\r\n
+comment1.params=name\ isEdible\ isWeapon\ weight
+comment1.target=Item(java.lang.String,\ boolean,\ boolean,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Items\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\r\n\ Get\ the\ name\ of\ the\ item\ \r\n\ @return\ The\ name\ of\ the\ item\ \r\n
+comment3.params=
+comment3.target=int\ getWeight()
+comment3.text=\r\n\ Get\ the\ weight\ of\ the\ item\r\n\ @return\ The\ weight\ of\ the\ item\r\n
+comment4.params=
+comment4.target=boolean\ getIsEdible()
+comment4.text=\r\n\ Determine\ whether\ the\ item\ is\ edible\ or\ not\r\n\ @return\ true\ if\ the\ item\ is\ edible,\ false\ if\ not\r\n
+comment5.params=
+comment5.target=boolean\ getIsWeapon()
+comment5.text=\r\n\ Determine\ whether\ the\ item\ is\ a\ weapon\ or\ not\r\n\ @return\ true\ if\ the\ item\ is\ a\ weapon,\ false\ if\ not\r\n
+numComments=6

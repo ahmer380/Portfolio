@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Enemy
+comment0.text=\r\n\ Class\ Enemy\ -\ an\ enemy\ (currently\ either\ a\ guard/warden)\ in\ an\ adventure\ game.\r\n\r\n\ This\ class\ is\ part\ of\ the\ "World\ of\ Zuul"\ application.\ \r\n\ "World\ of\ Zuul"\ is\ a\ very\ simple,\ text\ based\ adventure\ game.\ \ \r\n\r\n\ An\ "Enemy"\ is\ a\ hostile\ NPC\ whom\ can\ fight\ against\ the\ player\ whenever\ they\ are\ \r\n\ inside\ the\ same\ room\r\n\ \r\n\ @author\ \ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes\ and\ Ahmer\ Alam\r\n\ @version\ 2016.02.29\r\n
+comment1.params=isWarden
+comment1.target=Enemy(boolean)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Enemy\r\n
+comment2.params=
+comment2.target=java.lang.String\ getEnemyType()
+comment2.text=\r\n\ Get\ the\ type\ (guard/warden)\ the\ enemy\ is\r\n\ @return\ The\ type\ of\ enemy\ (guard/warden)\r\n
+comment3.params=
+comment3.target=int\ getHealth()
+comment3.text=\r\n\ Get\ the\ health\ of\ the\ enemy\r\n\ @return\ The\ health\ of\ the\ enemy\r\n
+comment4.params=
+comment4.target=void\ decrementHealth()
+comment4.text=\r\n\ Decrement\ the\ health\ of\ the\ enemy\ by\ 1\r\n
+numComments=5
