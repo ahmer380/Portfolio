@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Creeper
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Creeper\ here.\r\n\r\n\ @author\ Ahmer\ Alam\ &\ Abu-Bakarr\ Jalloh\r\n\ @version\ 2023.02.24\r\n
+comment1.params=field\ location
+comment1.target=Creeper(Field,\ Location)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ CreeperCell\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ \r\n\ If\ a\ creeper\ is\ near\ another\ aggro\ creeper,\ the\ creeper\ does\ NOT\ die\ but\ become\ aggro\ too\r\n\ Creating\ a\ chain\ reaction\r\n\ Creeper\ immune\r\n
+comment3.params=
+comment3.target=void\ updateState()
+comment3.text=\r\n\ Update\ state\ of\ creeper\ cell\ \r\n\ important\ to\ update\ active\ attribute\ here\ and\ not\ before\r\n
+comment4.params=
+comment4.target=boolean\ isAggro()
+comment4.text=\r\n\ Checks\ if\ the\ creeper\ cell\ is\ in\ its\ aggro\ state\ or\ not\r\n\ @return\ true\ if\ the\ creeper\ cell\ is\ in\ its\ aggro\ state\r\n
+comment5.params=
+comment5.target=void\ setInfected()
+comment5.text=\r\n\ Overrides\ the\ superclass\ method,\ as\ creepers\ are\ immune\ to\ the\ disease\r\n
+numComments=6

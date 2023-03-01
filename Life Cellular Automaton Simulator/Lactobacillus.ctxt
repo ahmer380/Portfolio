@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Lactobacillus
+comment0.text=\r\n\ Lactobacillus.\ A\ type\ of\ bacteria\ responsible\ for\ the\ "souring"\ of\ milk.\r\n\r\n\ @author\ Ahmer\ Alam\ &\ Abu-Bakarr\ Jalloh\r\n\ @version\ 2023.02.24\r\n
+comment1.params=field\ location
+comment1.target=Lactobacillus(Field,\ Location)
+comment1.text=\r\n\ Create\ a\ new\ Lactobacillus.\r\n\r\n\ @param\ field\ The\ field\ currently\ occupied.\r\n\ @param\ location\ The\ location\ within\ the\ field.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ This\ is\ how\ the\ Lactobacillus\ decides\ if\ it's\ alive\ or\ not\r\n
+comment3.params=
+comment3.target=void\ resetAgeLimit()
+comment3.text=\r\n\ Resets\ the\ number\ of\ generations\ this\ cell\ can\ live\ before\ dying\ to\ the\ initial\ amount\ \r\n
+numComments=4

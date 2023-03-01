@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=DiseaseInfo
+comment0.text=\r\n\ Data\ on\ the\ behaviour\ of\ the\ disease\ that\ strikes\ all\ cells\ apart\ from\ Creepers\ (immune)\r\n\r\n\ @author\ Ahmer\ Alam\ &\ Abu-Bakarr\ Jalloh\r\n\ @version\ 2023.02.24\r\n
+comment1.params=
+comment1.target=DiseaseInfo()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ DiseaseInfo\ //only\ used\ for\ static\ purposes\ (won't\ ever\ be\ called)\r\n
+comment2.params=
+comment2.target=void\ setAge()
+comment2.text=\r\n\ Sets\ the\ age\ of\ the\ disease\ to\ 0\r\n
+comment3.params=
+comment3.target=void\ incrementAge()
+comment3.text=\r\n\ Increments\ the\ age\ of\ the\ disease\ by\ 1\r\n
+comment4.params=
+comment4.target=int\ getAge()
+comment4.text=\r\n\ Gets\ the\ age\ of\ the\ disease\r\n\ @return\ the\ number\ of\ generations\ the\ disease\ has\ lasted\ for\r\n
+comment5.params=
+comment5.target=boolean\ doImplementSymptom()
+comment5.text=\r\n\ Checks\ whether\ all\ infected\ cells\ can\ transform\ from\ asymptomatic\ state\ ->\ symptomatic\ state\r\n\ @return\ true\ if\ the\ transformation\ is\ permitted\r\n
+comment6.params=
+comment6.target=boolean\ doDie()
+comment6.text=\r\n\ Checks\ whether\ or\ not\ the\ disease\ has\ ended\r\n\ @return\ true\ if\ the\ number\ of\ generations\ the\ disease\ has\ lasted\ for\ is\ larger\ than\ the\ set\ amount\ of\ generations\ the\ disease\ is\ meant\ to\ last\ for\r\n
+numComments=7
