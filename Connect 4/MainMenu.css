@@ -1,0 +1,16 @@
+/*CSS for the Connect 4 main menu*/
+
+.button {
+    -fx-background-color: grey;
+}
+#start-button {
+    -fx-background-color: tomato red;
+}
+.button:hover, #start-button:hover {
+    -fx-background-color: green;
+}
+.pane {
+    -fx-background-image: url("resources/background.jpg");
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
